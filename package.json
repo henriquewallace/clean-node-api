@@ -12,6 +12,8 @@
   "devDependencies": {
     "@types/node": "^20.11.14",
     "git-commit-msg-linter": "^5.0.6",
+    "husky": "^9.0.7",
+    "lint-staged": "^15.2.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
