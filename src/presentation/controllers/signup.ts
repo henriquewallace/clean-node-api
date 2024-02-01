@@ -1,4 +1,4 @@
-import { Controller } from './../protocols/controller'
+ =import { Controller } from './../protocols/controller'
 import { badRequest, serverError } from './../helpers/http-helper'
 import { MissingParamError } from '../errors/missing-param-error'
 import { HttpRequest, HttpResponse } from '../protocols/http'
