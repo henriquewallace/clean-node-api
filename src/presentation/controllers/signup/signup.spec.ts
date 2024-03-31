@@ -1,4 +1,4 @@
-import { Validation } from './../../helpers/validators/validation'
+import { Validation } from '../../protocols/validation'
 import { SignUpController } from './signup'
 import { AddAccount, AddAccountModel, HttpRequest } from './signup-protocols'
 import { MissingParamError, ServerError } from '../../errors'
