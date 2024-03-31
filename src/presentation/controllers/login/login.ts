@@ -20,7 +20,7 @@ export class LoginController implements Controller {
       }
 
       const { email, password } = httpRequest.body
-      const accessToken = await this.authentication.auth(email as string, password as string)
+      const accessToken = await this.authentication.auth({ email: email as string, password: password as string })
       if (!accessToken) {
         return unauthorized()
       }
